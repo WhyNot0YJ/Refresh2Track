@@ -1,0 +1,197 @@
+[
+  {
+    "build_number": 0,
+    "has_prefix": false,
+    "machine": "x86_64",
+    "platform": "linux",
+    "depends": [
+      "libcublas >=11.11.3.6"
+    ],
+    "build": "0",
+    "timestamp": 1662499317965,
+    "arch": "x86_64",
+    "operatingsystem": "linux",
+    "target-triplet": "x86_64-any-linux",
+    "subdir": "linux-64",
+    "md5": "d2097d064d1437dbbcce39c3e8018a4e",
+    "name": "libcublas-dev",
+    "requires": [],
+    "size": 413253930,
+    "version": "11.11.3.6",
+    "binstar": {
+      "package_id": "6137debe5884df75bfa7428a",
+      "owner_id": "5be2119d5c4b9a1104ccdc8f",
+      "channel": "cuda-11.8.0"
+    },
+    "filename": "libcublas-dev-11.11.3.6-0.tar.bz2",
+    "url": "https://conda.anaconda.org/nvidia/label/cuda-11.8.0/linux-64/libcublas-dev-11.11.3.6-0.tar.bz2",
+    "local_path": "/mnt/d/CoopTrack_Audit/data/cuda_packages/libcublas-dev-11.11.3.6-0.tar.bz2",
+    "actual_size": 413253930,
+    "actual_md5": "d2097d064d1437dbbcce39c3e8018a4e",
+    "actual_sha256": "202e37cd0210a726da327d0d380bac3d9f320e6a71ff69dd5a902587c5580b0c",
+    "official_sha256": null,
+    "official_md5_match": true,
+    "size_match": true,
+    "status": "PASS",
+    "header_members": [
+      {
+        "name": "include/cublas_v2.h",
+        "size": 8811,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/nvblas.h",
+        "size": 23341,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cublasXt.h",
+        "size": 37380,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cublas.h",
+        "size": 41246,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cublasLt.h",
+        "size": 79035,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cublas_api.h",
+        "size": 220681,
+        "type": "0",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "build_number": 0,
+    "has_prefix": false,
+    "machine": "x86_64",
+    "platform": "linux",
+    "depends": [
+      "libcusparse >=11.7.5.86"
+    ],
+    "build": "0",
+    "timestamp": 1661489561708,
+    "arch": "x86_64",
+    "operatingsystem": "linux",
+    "target-triplet": "x86_64-any-linux",
+    "subdir": "linux-64",
+    "md5": "e0c8805b9b08087d1cce37bcc270a3e4",
+    "name": "libcusparse-dev",
+    "requires": [],
+    "size": 377165256,
+    "version": "11.7.5.86",
+    "binstar": {
+      "package_id": "6137df250532bdb2ed989b63",
+      "owner_id": "5be2119d5c4b9a1104ccdc8f",
+      "channel": "cuda-11.8.0"
+    },
+    "filename": "libcusparse-dev-11.7.5.86-0.tar.bz2",
+    "url": "https://conda.anaconda.org/nvidia/label/cuda-11.8.0/linux-64/libcusparse-dev-11.7.5.86-0.tar.bz2",
+    "local_path": "/mnt/d/CoopTrack_Audit/data/cuda_packages/libcusparse-dev-11.7.5.86-0.tar.bz2",
+    "actual_size": 377165256,
+    "actual_md5": "e0c8805b9b08087d1cce37bcc270a3e4",
+    "actual_sha256": "f8f48bd3ffad7bd915a68fab259826cc589ff084cdcb462e4da5250aee62621c",
+    "official_sha256": null,
+    "official_md5_match": true,
+    "size_match": true,
+    "status": "PASS",
+    "header_members": [
+      {
+        "name": "include/cusparse_v2.h",
+        "size": 2587,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusparse.h",
+        "size": 334453,
+        "type": "0",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "build_number": 0,
+    "has_prefix": false,
+    "machine": "x86_64",
+    "platform": "linux",
+    "depends": [
+      "libcusolver >=11.4.1.48"
+    ],
+    "build": "0",
+    "timestamp": 1661488763689,
+    "arch": "x86_64",
+    "operatingsystem": "linux",
+    "target-triplet": "x86_64-any-linux",
+    "subdir": "linux-64",
+    "md5": "eef8b2209666925de40dc52dc2bd0036",
+    "name": "libcusolver-dev",
+    "requires": [],
+    "size": 69542891,
+    "version": "11.4.1.48",
+    "binstar": {
+      "package_id": "6137df1016c93053c05a6684",
+      "owner_id": "5be2119d5c4b9a1104ccdc8f",
+      "channel": "cuda-11.8.0"
+    },
+    "filename": "libcusolver-dev-11.4.1.48-0.tar.bz2",
+    "url": "https://conda.anaconda.org/nvidia/label/cuda-11.8.0/linux-64/libcusolver-dev-11.4.1.48-0.tar.bz2",
+    "local_path": "/mnt/d/CoopTrack_Audit/data/cuda_packages/libcusolver-dev-11.4.1.48-0.tar.bz2",
+    "actual_size": 69542891,
+    "actual_md5": "eef8b2209666925de40dc52dc2bd0036",
+    "actual_sha256": "04b4a8ba6268cad7a688b62948103e8b18d7086f1f0c55a80db5b0d6302b3dcf",
+    "official_sha256": null,
+    "official_md5_match": true,
+    "size_match": true,
+    "status": "PASS",
+    "header_members": [
+      {
+        "name": "include/cusolver_common.h",
+        "size": 8825,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusolverMg.h",
+        "size": 11549,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusolverRf.h",
+        "size": 14292,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusolverSp.h",
+        "size": 32561,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusolverSp_LOWLEVEL_PREVIEW.h",
+        "size": 37495,
+        "type": "0",
+        "link": ""
+      },
+      {
+        "name": "include/cusolverDn.h",
+        "size": 147406,
+        "type": "0",
+        "link": ""
+      }
+    ]
+  }
+]

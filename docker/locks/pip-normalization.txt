@@ -1,0 +1,1 @@
+pip is already locked as conda pip24.3.1. mmdet3d is built separately from the recorded official source commit. ninja is intentionally corrected from host1.11.1.1 to the verified Docker1.11.1.3 wheel. Torch/Open3D/ninja use retained local wheels with verified hashes, not stale private build paths. All other pip package versions match the captured host list exactly.

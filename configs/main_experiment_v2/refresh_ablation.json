@@ -1,0 +1,32 @@
+{
+  "protocol": "REFRESH_2X2_SEED0",
+  "seed": 0,
+  "split": "official_val",
+  "samples": 3316,
+  "scenes": 21,
+  "frequency_hz": 10,
+  "category": "car-only",
+  "training": false,
+  "geometry": "constant velocity in last-received infrastructure LiDAR frame, followed by received last/current calibration pose transport; actual timestamp delta in seconds",
+  "hold": ["z", "dimensions", "yaw", "velocity"],
+  "reference_point": "advance received affine-normalized reference by the same physical xy displacement as the box; preserve native received offset",
+  "inf_pc_range": [0, -51.2, -5, 102.4, 51.2, 3],
+  "quantization": "inherited per-query per-field symmetric INT8 absmax/127, np.rint, FP32 scales",
+  "latent_update_bytes_per_query": 780,
+  "geometry_update_bytes_per_query": 52,
+  "serializer": "CTKR2X01 reliable ordered; independent geometry and latent flags; actual len(packet)",
+  "cache_key": ["scene", "native_reset_session", "predicted_track_id"],
+  "absent_id": "retain received state within native session; no invented reinitialization or TTL",
+  "rng": "reset seed 0 after model and loader iterator construction, before data flow; inherit native CUDA settings",
+  "methods": {
+    "A": {"geometry_every_frame": false, "latent_every_frame": false},
+    "B": {"geometry_every_frame": true, "latent_every_frame": false},
+    "C": {"geometry_every_frame": false, "latent_every_frame": true},
+    "D": {"geometry_every_frame": true, "latent_every_frame": true}
+  },
+  "reuse_B": "only after complete official-val receiver tensor equality with frozen INIT_ONLY",
+  "reuse_D": false,
+  "new_D_reason": "historical P1 uses different inference RNG placement; exact prediction equivalence is unproved",
+  "diagnostic_reference": "current sender predictions used only after decoding for offline error reporting; no online correction",
+  "wire_scope": "application packet including metadata, IDs, two flags and CRC; excludes TCP/IP/radio overhead as in V2"
+}

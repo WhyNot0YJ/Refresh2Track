@@ -1,0 +1,13 @@
+diff --git a/projects/mmdet3d_plugin/cooptrack/modules/pf_utils.py b/projects/mmdet3d_plugin/cooptrack/modules/pf_utils.py
+index b5b04c4..8876017 100644
+--- a/projects/mmdet3d_plugin/cooptrack/modules/pf_utils.py
++++ b/projects/mmdet3d_plugin/cooptrack/modules/pf_utils.py
+@@ -34,7 +34,7 @@ def xyz_ego_transformation(xyz, l2g_r1, l2g_t1, l2g_r2, l2g_t2, pc_range,
+     if torch.__version__ < '1.9.0':
+         g2l_r2 = torch.tensor(np.linalg.inv(l2g_r2.cpu().numpy())).type(torch.float).to(l2g_r2.device)
+     else:
+-        g2l_r2 = torch.linalg.inv(l2g_r2).type(torch.float)
++        g2l_r2 = torch.linalg.inv(l2g_r2.cpu()).to(l2g_r2.device).type(torch.float)
+     # xyz = xyz @ l2g0[:3, :3].T + l2g0[:3, 3] - l2g1[:3, 3]
+     # xyz = xyz @ g2l1[:3, :3].T
+     xyz = xyz @ l2g_r1 + l2g_t1 - l2g_t2

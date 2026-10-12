@@ -1,0 +1,6332 @@
+{
+  "prefix": "/home/yujie/miniconda/envs/cooptrack-smoke",
+  "elf_count": 639,
+  "max_glibc": "2.34",
+  "requiring_above_2_35": [],
+  "requiring_above_2_31": [
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.7",
+        "2.12",
+        "2.14",
+        "2.17",
+        "2.18",
+        "2.25",
+        "2.28",
+        "2.30",
+        "2.33",
+        "2.34"
+      ],
+      "max_glibc": "2.34",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/attach_linux_amd64.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.34"
+      ],
+      "max_glibc": "2.34",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/ball_query/ball_query_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/furthest_point_sample/furthest_point_sample_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.29",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/gather_points/gather_points_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/group_points/group_points_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/interpolate/interpolate_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/iou3d/iou3d_cuda.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/knn/knn_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/paconv/assign_score_withk_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/roiaware_pool3d/roiaware_pool3d_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/spconv/sparse_conv_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/voxel/voxel_layer.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    }
+  ],
+  "all_elf_versions": [
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/bunzip2",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/tic",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/bzip2recover",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/bzip2",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/fatbinary",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2"
+      ],
+      "max_glibc": "2.3.2",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/icuexportdata",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/gencnval",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/tabs",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4"
+      ],
+      "max_glibc": "2.3.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/clear",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4"
+      ],
+      "max_glibc": "2.3.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/infocmp",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/lzmainfo",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.8",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/ptxas",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/lzmadec",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/pkgdata",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/bzcat",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/tput",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/icuinfo",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/__nvcc_device_query",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/nvlink",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/xzdec",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/xz",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.8",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/gendict",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/wish8.6",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/makeconv",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/python3.8",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.9",
+        "2.10",
+        "2.14",
+        "2.15",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/openssl",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14",
+        "2.15"
+      ],
+      "max_glibc": "2.15",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/toe",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/genbrk",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/x86_64-conda-linux-gnu-ld",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.8",
+        "2.11",
+        "2.14",
+        "2.15"
+      ],
+      "max_glibc": "2.15",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/tset",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/cudafe++",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/bin2c",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2"
+      ],
+      "max_glibc": "2.3.2",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/gencfu",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/tclsh8.6",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/zstd",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/nvcc",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/genrb",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/bin/derb",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libcudart.so.11.8.89",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libatomic.so.1.2.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libtk8.6.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libtcl8.6.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.11",
+        "2.14",
+        "2.15"
+      ],
+      "max_glibc": "2.15",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libffi.so.8.4.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libquadmath.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.10",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libreadline.so.8.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.11",
+        "2.14",
+        "2.15"
+      ],
+      "max_glibc": "2.15",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicutest.so.78.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicui18n.so.78.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libmenuw.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libncurses.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicuuc.so.78.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicudata.so.78.3",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libssl.so.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libcrypt.so.2.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libcrypto.so.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.12",
+        "2.14",
+        "2.15",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libtinfo.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libpython3.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicuio.so.78.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libitm.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libsqlite3.so.3.53.4",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libpython3.8.so.1.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.9",
+        "2.10",
+        "2.14",
+        "2.15",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libncursesw.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libpanelw.so.6.6",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libzstd.so.1.5.7",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.4",
+        "2.8",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libz.so.1.3.2",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libhistory.so.8.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libnsl.so.3.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libOpenCL.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libtinfow.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libformw.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libform.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libpanel.so.6.6",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libstdc++.so.6.0.36",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/liblzma.so.5",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libbz2.so.1.0.8",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libmenu.so.6.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libgomp.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/liblzma.so.5.8.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libicutu.so.78.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libuuid.so.1.3.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/libgcc_s.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/thread2.8.8/libthread2.8.8.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/tdbcmysql1.1.5/libtdbcmysql1.1.5.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/tdbcodbc1.1.5/libtdbcodbc1.1.5.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/sqlite3.40.0/libsqlite3.40.0.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/tdbc1.1.5/libtdbc1.1.5.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/tdbcpostgres1.1.5/libtdbcpostgres1.1.5.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/itcl4.2.3/libitcl4.2.3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/30fcd23745efe32ce681__mypyc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_uuid.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_md5.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_testcapi.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/audioop.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_sqlite3.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/ossaudiodev.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_testimportmultiple.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_elementtree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/parser.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/nis.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_multiprocessing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_xxsubinterpreters.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_multibytecodec.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_lsprof.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_curses_panel.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_sha1.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/xxlimited.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_posixshmem.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.10",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_testbuffer.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/spwd.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_iso2022.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_statistics.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/resource.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.13"
+      ],
+      "max_glibc": "2.13",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_testinternalcapi.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_tkinter.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_kr.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_xxtestfuzz.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/mmap.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_crypt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_sha256.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_cn.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_ctypes.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/pyexpat.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/syslog.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_tw.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_jp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.4",
+        "2.9"
+      ],
+      "max_glibc": "2.9",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_codecs_hk.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/readline.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_testmultiphase.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/cmath.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_ctypes_test.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchvision/image.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchvision/_C.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/cv2/cv2.abi3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/libc++abi.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.18"
+      ],
+      "max_glibc": "2.18",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/libc++.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.8",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/_isotonic.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxkbcommon-x11-c65ed502.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libQt5Core-39545cc7.so.5.15.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.9",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-shape-25c2b258.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-image-e82a276d.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-keysyms-21015570.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libavformat-8ef5c7db.so.58.76.100",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-xkb-9ba31ab3.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxkbcommon-71ae2972.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.8",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libopenblas-r0-f650aae0.3.3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-util-4d666913.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.8"
+      ],
+      "max_glibc": "2.8",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libgfortran-91cc3cb1.so.3.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libavcodec-65fa80df.so.58.134.100",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libquadmath-96973f99.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.10",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-icccm-413c9f41.so.4.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libssl-b92f8066.so.1.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-render-637b984a.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-xinerama-ae147f87.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libpng15-ce838cd1.so.15.13.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.11",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libbz2-a273e504.so.1.0.6",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-shm-7a199f70.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-xfixes-9be3ba6f.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libswresample-99364a1c.so.3.9.100",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libcrypto-09fe7800.so.1.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.7",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libQt5Gui-ba0a2070.so.5.15.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libfreetype-c0e61f0c.so.6.14.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.11",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libQt5XcbQpa-ca221f44.so.5.15.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libswscale-e6451464.so.5.9.100",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libQt5Widgets-e69d94fb.so.5.15.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-render-util-43ce00f5.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libavutil-9c768859.so.56.70.100",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.3.4",
+        "2.7",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libX11-xcb-69166bdf.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-sync-89374f40.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libvpx-1016051d.so.7.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libQt5Test-c38a5234.so.5.15.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libXau-00ec42fe.so.6.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/opencv_python.libs/libxcb-randr-a96a5a87.so.0.1.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/markupsafe/_speedups.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy.libs/libgfortran-2e0d59d6.so.5.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy.libs/libopenblasp-r0-09e95953.3.13.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.6",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy.libs/libz-eb09ad1d.so.1.2.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy.libs/libquadmath-2d0c479f.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.10"
+      ],
+      "max_glibc": "2.10",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libXau-154567c4.so.6.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libxcb-b8a56d01.so.1.1.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libfreetype-be14bf51.so.6.20.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libwebpmux-d524b4d5.so.3.1.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libwebpdemux-f2642bcc.so.2.0.15",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/liblzma-13fa198c.so.5.4.5",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libpng16-58efbb84.so.16.43.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libjpeg-77ae51ab.so.62.4.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libbrotlidec-ba690955.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/liblcms2-e69eef39.so.2.0.16",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libtiff-0a86184d.so.6.0.2",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libharfbuzz-89381d8f.so.0.60850.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libopenjp2-05423b53.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libsharpyuv-898c0cb5.so.0.1.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14",
+        "2.27"
+      ],
+      "max_glibc": "2.27",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libwebp-2fd3cdca.so.7.1.9",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pillow.libs/libbrotlicommon-3ecfe81c.so.1",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/_C.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/_dl.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/_dynfunc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/_helperlib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/mviewbuf.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/_dispatcher.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/kiwisolver/_cext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pycocotools/_mask.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/_argon2_cffi_bindings/_ffi.abi3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pytree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pygram.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imagingcms.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imagingft.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imaging.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imagingmorph.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imagingmath.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_webp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/PIL/_imagingtk.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/y_py/y_py.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy.libs/libquadmath-96973f99.so.0.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.10",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy.libs/libgfortran-040039e1.so.5.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy.libs/libopenblasp-r0-8b9e111f.3.17.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.6",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scikit_learn.libs/libgomp-a34b3233.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/Shapely.libs/libgeos-35e678a0.so.3.10.3",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/rpds/rpds.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/yaml/_yaml.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_c_internal_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_path.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_qhull.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_tri.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_contour.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_image.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/_ttconv.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/ft2font.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/charset_normalizer/cd.abi3.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/charset_normalizer/md.abi3.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scikit_image.libs/libgomp-a34b3233.so.1.0.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/mmcv/_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pyzmq.libs/libsodium-53576c4c.so.26.2.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pyzmq.libs/libzmq-47dc3393.so.5.2.5",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.9",
+        "2.10",
+        "2.12",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/strings.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/numerics.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/handle_ipynb_magics.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/trans.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/schema.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/linegen.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/rusty.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/brackets.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/const.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/ranges.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/cache.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/parsing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/nodes.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/mode.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/comments.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/_width_table.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/lines.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/__init__.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/tornado/speedups.abi3.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchaudio/_torchaudio.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14",
+        "2.15"
+      ],
+      "max_glibc": "2.15",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchvision.libs/libpng16.7f72a3c5.so.16",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchvision.libs/libjpeg.ceea7512.so.62",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.7",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torchvision.libs/libz.1328edc3.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/psutil/_psutil_linux.abi3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.6",
+        "2.7"
+      ],
+      "max_glibc": "2.7",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/google/protobuf/internal/_api_implementation.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/google/protobuf/pyext/_message.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/cv2/qt/plugins/platforms/libqxcb.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cuda/pybind.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.8",
+        "2.9",
+        "2.10",
+        "2.11",
+        "2.12",
+        "2.14",
+        "2.15",
+        "2.16",
+        "2.27"
+      ],
+      "max_glibc": "2.27",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cuda/open3d_torch_ops.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cuda/open3d_tf_ops.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cpu/pybind.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.8",
+        "2.9",
+        "2.10",
+        "2.11",
+        "2.12",
+        "2.14",
+        "2.15",
+        "2.16",
+        "2.27"
+      ],
+      "max_glibc": "2.27",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cpu/open3d_torch_ops.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/open3d/cpu/open3d_tf_ops.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/svm/_newrand.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/svm/_liblinear.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/svm/_libsvm.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/svm/_libsvm_sparse.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/manifold/_barnes_hut_tsne.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/manifold/_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/neighbors/_quad_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/neighbors/_partition_nodes.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/neighbors/_kd_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/neighbors/_ball_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_readonly_array_wrapper.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_weight_vector.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_typedefs.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/arrayfuncs.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/murmurhash.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_fast_dict.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_cython_blas.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_seq_dataset.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_logistic_sigmoid.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_openmp_helpers.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/sparsefuncs_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/utils/_random.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/metrics/_dist_metrics.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/metrics/_pairwise_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/__check_build/_check_build.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/tree/_splitter.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/tree/_criterion.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/tree/_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/tree/_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/feature_extraction/_hashing_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_k_means_lloyd.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_k_means_minibatch.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_hierarchical_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_dbscan_inner.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_k_means_common.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/cluster/_k_means_elkan.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/datasets/_svmlight_format_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/preprocessing/_csr_polynomial_expansion.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/linear_model/_sag_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/linear_model/_cd_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/linear_model/_sgd_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_gradient_boosting.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/decomposition/_online_lda_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/decomposition/_cdnmf_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/metrics/cluster/_expected_mutual_info_fast.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/histogram.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/_bitset.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/common.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/_predictor.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/_loss.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/_binning.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/sklearn/ensemble/_hist_gradient_boosting/splitting.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/shapely/speedups/_speedups.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/shapely/vectorized/_vectorized.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libc10.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.12",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libcudart-6d56b25a.so.11.0",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3"
+      ],
+      "max_glibc": "2.3.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libcaffe2_observers.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_cuda.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libcaffe2_module_test_dynamic.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libc10_cuda.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libcaffe2_detectron_ops_gpu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libnvrtc-builtins.so.11.1",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libgomp-a34b3233.so.1",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_python.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.9",
+        "2.10",
+        "2.12",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_cuda_cpp.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.6",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libnvToolsExt-24de1d56.so.1",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libnvrtc-3a20f2b6.so.11.1",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_cpu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.11",
+        "2.12",
+        "2.14",
+        "2.16"
+      ],
+      "max_glibc": "2.16",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libshm.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch.so",
+      "glibc_versions": [],
+      "max_glibc": null,
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_global_deps.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libtorch_cuda_cu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/torch/lib/libcaffe2_nvrtc.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/runtime/_nrt_python.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/jitclass/_box.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/.libs/libtbb-86b34247.so.2",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/npyufunc/tbbpool.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/npyufunc/workqueue.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.2",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/npyufunc/_internal.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/typeconv/_typeconv.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numba/cuda/cudadrv/_extras.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/caffe2/python/caffe2_pybind11_state.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/caffe2/python/caffe2_pybind11_state_gpu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.3",
+        "2.3.4",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/pgen.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/tokenize.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/literals.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/driver.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/grammar.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/parse.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/token.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/blib2to3/pgen2/conv.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/cu2qu/cu2qu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/pens/momentsPen.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/qu2cu/qu2cu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/misc/bezierTools.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/feaLib/lexer.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/fontTools/varLib/iup.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pywt/_extensions/_swt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pywt/_extensions/_dwt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pywt/_extensions/_pywt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pywt/_extensions/_cwt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/_bspl.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/interpnd.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/_rbfinterp_pythran.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/_ppoly.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/dfitpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/interpolate/_fitpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/io/_test_fortran.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/ndimage/_nd_image.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/ndimage/_cytest.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/ndimage/_ni_label.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/ndimage/_ctest.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_slsqp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_bglu_dense.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_zeros.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_minpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_group_columns.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_lsap_module.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/minpack2.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/moduleTNC.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/__nnls.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_lbfgsb.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_cobyla.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_qmc_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_stats.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/biasedurn.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/mvn.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_sobol.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/statlib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/fftpack/convolve.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/_ufuncs_cxx.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/_ufuncs.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/specfun.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/_comb.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/cython_special.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/_test_round.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/special/_ellip_harm_2.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/_quadpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/lsoda.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/_odepack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/vode.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/_dop.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/_test_multivariate.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/integrate/_test_odeint_banded.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_test_deprecation_call.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_test_deprecation_def.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_fpumode.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_test_ccallback.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_ccallback_c.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/messagestream.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/_upfirdn_apply.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/sigtools.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/_spectral.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/_peak_finding_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/_max_len_seq_inner.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/spline.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/signal/_sosfilt.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/odr/__odrpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/cluster/_hierarchy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/cluster/_vq.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/cluster/_optimal_leaf_ordering.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/_distance_pybind.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/_hausdorff.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/_voronoi.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/ckdtree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/qhull.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/_distance_wrap.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/_sparsetools.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/_csparsetools.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/cython_blas.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_flinalg.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/cython_lapack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_flapack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_matfuncs_sqrtm_triu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_decomp_update.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_solve_toeplitz.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_fblas.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/linalg/_interpolative.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/io/matlab/mio_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/io/matlab/streams.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/io/matlab/mio5_utils.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/cython_optimize/_zeros.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_highs/_highs_wrapper.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_highs/_highs_constants.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_lsq/givens_elimination.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/optimize/_trlib/_trlib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_boost/beta_ufunc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_boost/binom_ufunc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/stats/_boost/nbinom_ufunc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/_lib/_uarray/_uarray.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/spatial/transform/rotation.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_flow.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_tools.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_matching.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_shortest_path.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_reordering.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_traversal.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/csgraph/_min_spanning_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/linalg/dsolve/_superlu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/linalg/isolve/_iterative.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/scipy/sparse/linalg/eigen/arpack/_arpack.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/zmq/backend/cython/_zmq.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/backports/zoneinfo/_czoneinfo.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_mt19937.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/mtrand.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_pcg64.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/bit_generator.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_common.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_bounded_integers.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_sfc64.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_generator.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/random/_philox.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_multiarray_umath.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.10"
+      ],
+      "max_glibc": "2.10",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_operand_flag_tests.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_multiarray_tests.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_struct_ufunc_tests.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_umath_tests.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/core/_rational_tests.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3"
+      ],
+      "max_glibc": "2.3",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/fft/_pocketfft_internal.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/linalg/_umath_linalg.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/numpy/linalg/lapack_lite.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/grpc/_cython/cygrpc.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4",
+        "2.6",
+        "2.7",
+        "2.9",
+        "2.10",
+        "2.12",
+        "2.14",
+        "2.16",
+        "2.17"
+      ],
+      "max_glibc": "2.17",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.3.4",
+        "2.7",
+        "2.12",
+        "2.14",
+        "2.17",
+        "2.18",
+        "2.25",
+        "2.28",
+        "2.30",
+        "2.33",
+        "2.34"
+      ],
+      "max_glibc": "2.34",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/backends/_backend_agg.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/matplotlib/backends/_tkagg.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/interval.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/sparse.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/reshape.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/ops_dispatch.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/ops.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/properties.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/internals.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/index.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/hashtable.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/groupby.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/writers.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/testing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/json.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/lib.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/algos.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/arrays.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/join.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/parsers.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/missing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/indexing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/hashing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/reduction.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/io/sas/_sas.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/window/aggregations.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/window/indexers.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/period.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/offsets.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/fields.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/dtypes.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/timezones.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/tzconversion.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/base.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/nattype.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/strptime.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/parsing.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/timestamps.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/vectorized.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/timedeltas.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/ccalendar.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/np_datetime.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/pandas/_libs/tslibs/conversion.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/transform/_warps_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/transform/_hough_transform.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/transform/_radon_transform.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/_shared/interpolation.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/_shared/fast_exp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/_shared/geometry.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/_shared/transform.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/_multiotsu.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_haar.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/censure_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/orb_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_hessian_det_appx.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/corner_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/brief_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_texture.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_sift.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_cascade.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/feature/_hoghistogram.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/segmentation/_felzenszwalb_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/segmentation/_slic.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/segmentation/_watershed_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/segmentation/_quickshift_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_rolling_ball_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_unwrap_3d.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_inpaint.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_unwrap_2d.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_denoise_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_unwrap_1d.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/restoration/_nl_means_denoising.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/graph/_mcp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/graph/heap.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/graph/_spath.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_grayreconstruct.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_extrema_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_max_tree.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_skeletonize_3d_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_skeletonize_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_convex_hull.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/morphology/_flood_fill_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/draw/_draw.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/util/_remap.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_find_contours_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_moments_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_pnpoly.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_ccomp.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_marching_cubes_lewiner_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/measure/_marching_cubes_classic_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/io/_plugins/_histograms.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/io/_plugins/_colormixer.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/rank/bilateral_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/rank/generic_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/rank/core_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/rank/core_cy_3d.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/filters/rank/percentile_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/skimage/future/graph/_ncut_cy.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/black/resources/__init__.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5"
+      ],
+      "max_glibc": "2.2.5",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/llvmlite/binding/libllvmlite.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3",
+        "2.3.2",
+        "2.4"
+      ],
+      "max_glibc": "2.4",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.14"
+      ],
+      "max_glibc": "2.14",
+      "readelf_code": 0
+    },
+    {
+      "path": "/home/yujie/miniconda/envs/cooptrack-smoke/lib/python3.8/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/attach_linux_amd64.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.34"
+      ],
+      "max_glibc": "2.34",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/ball_query/ball_query_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/furthest_point_sample/furthest_point_sample_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.29",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/gather_points/gather_points_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/group_points/group_points_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/interpolate/interpolate_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/iou3d/iou3d_cuda.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.3.4",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/knn/knn_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/paconv/assign_score_withk_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/roiaware_pool3d/roiaware_pool3d_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/spconv/sparse_conv_ext.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    },
+    {
+      "path": "/mnt/d/CoopTrack_Audit/code/mmdetection3d/mmdet3d/ops/voxel/voxel_layer.cpython-38-x86_64-linux-gnu.so",
+      "glibc_versions": [
+        "2.2.5",
+        "2.4",
+        "2.14",
+        "2.32"
+      ],
+      "max_glibc": "2.32",
+      "readelf_code": 0
+    }
+  ]
+}

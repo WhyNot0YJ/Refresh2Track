@@ -1,0 +1,12 @@
+{
+  "CoopTrack": {
+    "commit": "29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399",
+    "diff_sha256": "27d9aeeb2898f2463fbbf1d0aa3a2f874c92fd41503f9fafb6f4890eb226565d",
+    "has_tracked_changes": true
+  },
+  "mmdetection3d": {
+    "commit": "f1107977dfd26155fc1f83779ee6535d2468f449",
+    "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "has_tracked_changes": false
+  }
+}

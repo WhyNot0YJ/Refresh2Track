@@ -1,0 +1,3 @@
+FROM cooptrack-stage1:29f1c52-official
+RUN apt-get update && apt-get install -y --no-install-recommends libudev1 \
+    && rm -rf /var/lib/apt/lists/*
