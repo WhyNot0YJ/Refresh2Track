@@ -1,0 +1,278 @@
+{
+  "status": "LOCKED_FORMAL_PROTOCOL",
+  "protocol_version": "V2-FORMAL-20261007-FULL46-12E",
+  "train_manifest_identity": "e12b36a2a8f0e10d991beff73f3de91a5e6f8105115050d1a1c3941db796d0f2",
+  "prepare_source_identity": {
+    "scripts/v2_prepare.py": "1acb6ff8508c2a5f8ab49b9e05d2edb904a77314fd43b4db0d3694c79c8764c2",
+    "scripts/v2_runtime.py": "c97c49707badb41ffb829194795f43e44d7f74cb1fbb3e0732e9c07b33449c77",
+    "scripts/main_runtime.py": "04c626799abaf67a47729a1cf789cecee6cd26a11c670b40f8dd3ad770fea290",
+    "scripts/main_message.py": "84d8ebe45b55f664a350df2c962ce5cd4160f687a1f53d11301471d71dac0b51"
+  },
+  "train_scenes": 46,
+  "train_samples": 7362,
+  "epochs": 12,
+  "max_epochs": 12,
+  "checkpoint_rule": "final epoch 12 only; intermediate checkpoints are for crash resume",
+  "backbone_commit": "29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399",
+  "checkpoints": {
+    "inf": {
+      "file": "cooptrack_r50_inf.pth",
+      "inherited_md5": "0657439da18e951724f6b4e5a623ea23"
+    },
+    "coop": {
+      "file": "cooptrack_r50_coop.pth",
+      "inherited_md5": "12d4658b70f21931f3b4a793cd1bf033"
+    }
+  },
+  "budgets_bytes": [
+    3474,
+    6382,
+    9290,
+    12198
+  ],
+  "budget_names": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "full_int8_mean_bytes": 12840.189523169913,
+  "budget_input": "B / full_int8_mean_bytes",
+  "scene_budget_offset_seed": 0,
+  "initial_offset": {
+    "0000": 1,
+    "0001": 2,
+    "0002": 0,
+    "0004": 0,
+    "0005": 2,
+    "0008": 3,
+    "0010": 1,
+    "0016": 3,
+    "0018": 0,
+    "0022": 0,
+    "0023": 2,
+    "0025": 2,
+    "0029": 2,
+    "0030": 2,
+    "0032": 1,
+    "0033": 2,
+    "0034": 3,
+    "0035": 3,
+    "0036": 0,
+    "0037": 1,
+    "0040": 0,
+    "0041": 0,
+    "0047": 1,
+    "0048": 1,
+    "0049": 1,
+    "0050": 1,
+    "0054": 2,
+    "0055": 1,
+    "0056": 3,
+    "0057": 3,
+    "0060": 1,
+    "0062": 2,
+    "0066": 0,
+    "0068": 2,
+    "0070": 0,
+    "0072": 2,
+    "0077": 3,
+    "0078": 0,
+    "0079": 1,
+    "0080": 3,
+    "0081": 1,
+    "0082": 3,
+    "0084": 3,
+    "0087": 3,
+    "0093": 0,
+    "0094": 0
+  },
+  "budget_rotation": "(initial_offset[scene] + zero_based_epoch_index) % 4; fixed for whole scene",
+  "budget_coverage": "each scene receives each budget exactly three times in 12 epochs",
+  "training_seed": 0,
+  "primary_inference_seed": 0,
+  "inference_seed_repeats": [],
+  "native_batch_size": 4,
+  "requested_native_batch_size": 4,
+  "actual_native_batch_size": 4,
+  "effective_optimizer_batch_size": 4,
+  "batch_measurement": null,
+  "batch_registration": "fixed protocol batch 4; measured correctness is recorded separately",
+  "correctness_requirement": "one real batch forward/loss/backward/optimizer step per variant; finite loss and nonzero finite scheduler gradient; no OOM",
+  "batch_state": "four independent scene streams; native batched forward; no gradient accumulation",
+  "batch_loss_reduction": "mean over actual valid streams, including tail batches",
+  "optimizer": {
+    "type": "AdamW",
+    "peak_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "grad_clip_norm": 5.0
+  },
+  "lr_schedule": {
+    "warmup_epochs": 1,
+    "warmup_start_lr": 1e-05,
+    "min_lr": 1e-06,
+    "cosine_total_horizon_epochs": 12,
+    "formula": "u<=1:1e-5+(1e-4-1e-5)*u; u>1:1e-6+0.5*(1e-4-1e-6)*(1+cos(pi*(u-1)/11))"
+  },
+  "precision": "FP32",
+  "lambda_rate": 1.0,
+  "lambda_extra_association_preserve": 0.0,
+  "task_loss": "native return_loss=True detection/tracking/GT association with original weights",
+  "rate_loss": "(relu(M+780*F+780*sum(optional_p)-max(B,M+780*F))/R)^2",
+  "gate": {
+    "threshold": 0.5,
+    "forced_update": "no receiver cache only",
+    "staleness_cap": null,
+    "budget_top_k": false,
+    "ranking_noise": false,
+    "hard_forward": "decoded.detach()+(soft-soft.detach())"
+  },
+  "cache": {
+    "key": [
+      "scene",
+      "native_reset_session",
+      "infrastructure_predicted_track_id"
+    ],
+    "ttl": null,
+    "last_received_update": "actual successfully decoded UPDATE only",
+    "last_observed_update": "every observed query including REUSE",
+    "reset": "scene change; native timestamp reversal; dt>500000us; independent stream reset"
+  },
+  "serializer": {
+    "name": "main_message.pack / ReceiverCache",
+    "magic": "APTU0001",
+    "version": 1,
+    "mandatory": "current IDs,flags,ref_pts,pred_boxes,UTF8 frame metadata,CRC",
+    "latent_update_bytes": 780,
+    "actual_cost": "len(packet)",
+    "quantization": "INT8 per-query per-field symmetric absmax/127; FP32 scales; np.rint",
+    "network": "reliable ordered no loss; excludes TCP/IP/radio/retransmission"
+  },
+  "features": {
+    "dimension": 2324,
+    "latent_dimension": 768,
+    "state_dimension": 20,
+    "normalization": "inherit existing feature builder; no staleness clipping"
+  },
+  "models": {
+    "common": {
+      "latent_projection": [
+        768,
+        64
+      ],
+      "query_projection": [
+        212,
+        64
+      ],
+      "query_activation": "LayerNorm+ReLU",
+      "budget_embedding": [
+        1,
+        64,
+        64
+      ],
+      "fresh_initialization": true
+    },
+    "mlp": {
+      "layers": [
+        128,
+        64,
+        64,
+        1
+      ],
+      "activation": "ReLU",
+      "cross_query_pooling": false,
+      "budget_injection": "concat query token and budget embedding"
+    },
+    "transformer": {
+      "layers": 2,
+      "d_model": 64,
+      "heads": 4,
+      "dim_feedforward": 128,
+      "dropout": 0,
+      "activation": "ReLU",
+      "output_head": [
+        64,
+        1
+      ],
+      "budget_injection": "budget token with same-scene query tokens",
+      "query_position_encoding": false
+    }
+  },
+  "periodic": {
+    "points": [
+      "P1",
+      "P2",
+      "P4",
+      "P6",
+      "P8",
+      "P10",
+      "P12",
+      "P16",
+      "P24",
+      "P32",
+      "INIT_ONLY"
+    ],
+    "new_official_val_points": [
+      "P6",
+      "P8",
+      "P10",
+      "P12",
+      "P16",
+      "P24",
+      "P32",
+      "INIT_ONLY"
+    ],
+    "reuse_existing_val_periods": [
+      1,
+      2,
+      4
+    ],
+    "conditional_extension": false,
+    "index": "native infrastructure frame index; only registered period or no-cache initialization"
+  },
+  "primary_comparison": {
+    "selection": "actual measured bytes only; nearest periodic point and both adjacent periodic points for every V2 budget",
+    "metric_based_pair_selection": false
+  },
+  "evaluation": {
+    "frequency_hz": 10,
+    "category": "car-only",
+    "official_val_samples": 3316,
+    "official_val_scenes": 21,
+    "only_after_both_final_checkpoints": true,
+    "validation_during_training": false,
+    "early_stopping": false,
+    "independent_clean_state_per_run": true,
+    "native_batch_eval": 1,
+    "inference_seed_reset": "after model/scheduler construction+load, before data flow"
+  },
+  "randomness": {
+    "python_seed": 0,
+    "numpy_seed": 0,
+    "torch_cpu_seed": 0,
+    "torch_cuda_seed": 0,
+    "PYTHONHASHSEED": "0",
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "tf32_matmul": true,
+    "tf32_cudnn": true,
+    "guarantee": "seeded RNG; inherited native kernels may remain nondeterministic"
+  },
+  "resume": {
+    "boundary": "complete epoch",
+    "required": [
+      "scheduler",
+      "optimizer",
+      "LR progress",
+      "epoch",
+      "Python/NumPy/torch CPU/CUDA RNG",
+      "variant",
+      "train manifest identity",
+      "budget map",
+      "config identity",
+      "full V2 source identity"
+    ],
+    "old_protocol_checkpoint_accepted": false
+  },
+  "protocol_identity": "2e7f99e8bad5cd10a6b6fff290c0ea7c73a0e9480f208bd3aa683d0926ba0a4f"
+}

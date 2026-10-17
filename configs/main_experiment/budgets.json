@@ -1,0 +1,74 @@
+{
+  "status": "LOCKED_FROM_FULL_TRAIN",
+  "budgets_bytes": [
+    3474,
+    6382,
+    9290,
+    12198
+  ],
+  "full_int8_mean_bytes": 12840.189523169913,
+  "full_int8": {
+    "count": 7445,
+    "mean": 12840.189523169913,
+    "p50": 11856.0,
+    "p95": 24388.0,
+    "min": 1821.0,
+    "max": 38588.0
+  },
+  "mandatory_state": {
+    "count": 7445,
+    "mean": 1820.809805238415,
+    "p50": 1751.0,
+    "p95": 2667.0,
+    "min": 1013.0,
+    "max": 3703.0
+  },
+  "temporal_full_int8": {
+    "count": 7445,
+    "mean": 12881.723169912693,
+    "p50": 11891.0,
+    "p95": 24507.0,
+    "min": 1793.0,
+    "max": 38803.0
+  },
+  "query_count": {
+    "count": 7445,
+    "mean": 14.180658159838819,
+    "p50": 13.0,
+    "p95": 28.0,
+    "min": 1.0,
+    "max": 45.0
+  },
+  "frames": 7445,
+  "cooperative_samples": 7362,
+  "scenes": 46,
+  "delta_thresholds": [
+    0.05824380852282046,
+    0.034333073534071445,
+    0.020130720920860767,
+    0.012402130989357829
+  ],
+  "delta_percentiles": [
+    90,
+    75,
+    50,
+    25
+  ],
+  "delta_definition": "L2 of concatenated three current INT8-dequantized latents minus last_received, divided by last_received L2; train full INT8 updates each native sender frame",
+  "delta_distribution": {
+    "count": 103634,
+    "mean": 0.031899479310879594,
+    "p50": 0.020130720920860767,
+    "p95": 0.08376003578305244,
+    "min": 0.0012689880095422268,
+    "max": 1.1429107189178467
+  },
+  "max_staleness_frames": 4,
+  "source_cache_manifest_sha256": "fb5b85106cf245a8c9c1e7d22ab51131cc01c782651da757f2453e1bb577e1ad",
+  "created_utc": "2026-10-04T14:36:01.592724+00:00",
+  "val_used": false,
+  "budget_rule": "B1=max(P95 mandatory,mean mandatory+15% latent gap); B4=95% mean inherited full INT8; linear intermediate points",
+  "rate_scope": "len(serialized_message); native mandatory predicted IDs/flags/geometry/header plus all per-query scales",
+  "baseline_scope": "exact inherited CTKMSG01 FEAT_INT8 serializer; temporal protocol additionally transmits predicted IDs and UPDATE flags",
+  "overflow_rule": "new track and age>=4 force UPDATE; actual serialized overflow is reported"
+}

@@ -1,0 +1,125 @@
+{
+  "status": "REUSED_VAL_EVIDENCE_COMPLETE",
+  "protocol_version": "V2-FORMAL-20261007-FULL46-12E",
+  "identity": {
+    "prepare_source_identity": {
+      "scripts/v2_prepare.py": "1acb6ff8508c2a5f8ab49b9e05d2edb904a77314fd43b4db0d3694c79c8764c2",
+      "scripts/v2_runtime.py": "c97c49707badb41ffb829194795f43e44d7f74cb1fbb3e0732e9c07b33449c77",
+      "scripts/main_runtime.py": "04c626799abaf67a47729a1cf789cecee6cd26a11c670b40f8dd3ad770fea290",
+      "scripts/main_message.py": "84d8ebe45b55f664a350df2c962ce5cd4160f687a1f53d11301471d71dac0b51"
+    },
+    "official_val_manifest_identity": "800959cad07e237285874437f9d141df601aad44e0169e5c1f8e87f94bf09a2d",
+    "backbone_commit": "29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399",
+    "cooperative_checkpoint_md5": "12d4658b70f21931f3b4a793cd1bf033"
+  },
+  "methods": {
+    "P2": {
+      "status": "REUSED_EXISTING_OFFICIAL_VAL",
+      "period_frames": 2,
+      "sample_count": 3316,
+      "scene_count": 21,
+      "metric_path": "/mnt/d/CoopTrack_Audit/experiments/main/metrics/periodic2.json",
+      "communication_path": "/mnt/d/CoopTrack_Audit/experiments/main/communication/periodic2.json",
+      "prediction_path": "/mnt/d/CoopTrack_Audit/experiments/main/predictions/periodic2/predictions.pkl",
+      "metrics": {
+        "mAP": 0.36281943441140074,
+        "AMOTA": 0.3525955979191123,
+        "AMOTP": 1.3236292013590565,
+        "IDS": 366.0,
+        "MOTA": 0.2873028279096206
+      },
+      "communication": {
+        "mean_bytes_per_frame": 7100.773823884198,
+        "p95_bytes_per_frame": 14782.0,
+        "bytes_per_second": 71007.73823884198,
+        "update_ratio": 0.5111552256987525,
+        "forced_update_ratio": 0.03512373389880214,
+        "budget_overflow_frames": null,
+        "maximum_budget_overflow_bytes": null
+      },
+      "inherited_identity": {
+        "commit": "29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399",
+        "method": "periodic2",
+        "budget": null,
+        "budgets_sha256": "afb425b1b4f3b80edecd1449c9e5f61ff3cc8fe6aba5ff1e72e338355e996614",
+        "scheduler_checkpoint_sha256": null,
+        "cooperative_checkpoint_md5": "12d4658b70f21931f3b4a793cd1bf033",
+        "seed": 0,
+        "tf32_matmul": true,
+        "tf32_cudnn": true
+      },
+      "new_model_forward_executed": false,
+      "limitation": "historical V1 RNG placement; forced_update_ratio uses the original V1 force rule"
+    },
+    "P4": {
+      "status": "REUSED_EXISTING_OFFICIAL_VAL",
+      "period_frames": 4,
+      "sample_count": 3316,
+      "scene_count": 21,
+      "metric_path": "/mnt/d/CoopTrack_Audit/experiments/main/metrics/periodic4.json",
+      "communication_path": "/mnt/d/CoopTrack_Audit/experiments/main/communication/periodic4.json",
+      "prediction_path": "/mnt/d/CoopTrack_Audit/experiments/main/predictions/periodic4/predictions.pkl",
+      "metrics": {
+        "mAP": 0.3607965575815641,
+        "AMOTA": 0.35402471040190686,
+        "AMOTP": 1.3257107369499272,
+        "IDS": 372.0,
+        "MOTA": 0.2830041210743215
+      },
+      "communication": {
+        "mean_bytes_per_frame": 4559.422798552473,
+        "p95_bytes_per_frame": 10330.0,
+        "bytes_per_second": 45594.22798552473,
+        "update_ratio": 0.26743215502267137,
+        "forced_update_ratio": 0.26743215502267137,
+        "budget_overflow_frames": null,
+        "maximum_budget_overflow_bytes": null
+      },
+      "inherited_identity": {
+        "commit": "29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399",
+        "method": "periodic4",
+        "budget": null,
+        "budgets_sha256": "afb425b1b4f3b80edecd1449c9e5f61ff3cc8fe6aba5ff1e72e338355e996614",
+        "scheduler_checkpoint_sha256": null,
+        "cooperative_checkpoint_md5": "12d4658b70f21931f3b4a793cd1bf033",
+        "seed": 0,
+        "tf32_matmul": true,
+        "tf32_cudnn": true
+      },
+      "new_model_forward_executed": false,
+      "limitation": "historical V1 RNG placement; forced_update_ratio uses the original V1 force rule"
+    },
+    "P1": {
+      "status": "REUSED_EXISTING_FEAT_INT8_OFFICIAL_VAL_REFERENCE",
+      "period_frames": 1,
+      "sample_count": 3316,
+      "scene_count": 21,
+      "metric_path": "/mnt/d/CoopTrack_Audit/artifacts/core/r50_alignment/communication_car_only/FEAT_INT8_seed0_val/result.json",
+      "legacy_run_path": "/mnt/d/CoopTrack_Audit/artifacts/core/communication_baselines/FEAT_INT8_seed0_val/result.json",
+      "prediction_path": "/mnt/d/CoopTrack_Audit/artifacts/core/communication_baselines/FEAT_INT8_seed0_val/evaluation/results_nusc.json",
+      "metrics": {
+        "mAP": 0.36110747718997416,
+        "AMOTA": 0.35334327871736654,
+        "ATE": 0.7869334456841748,
+        "ASE": 0.15450038428313495,
+        "AOE": 0.11192750469131557,
+        "AVE": 2.5284857813109953,
+        "AMOTP": 1.323492781644139,
+        "IDS": 316.0,
+        "MOTA": 0.2873028279096206
+      },
+      "communication": {
+        "mean_bytes_per_frame": 12161.645355850422,
+        "p95_bytes_per_frame": 21043.0,
+        "bytes_per_second": 121616.45355850422,
+        "update_ratio": 1.0
+      },
+      "historical_mean_bytes_per_frame": 12161.645355850422,
+      "new_model_forward_executed": false,
+      "serializer_difference": "historical CTKMSG01 cost retained; new formal runs use APTU0001; no unified byte rebill",
+      "limitation": "P1-equivalent historical high-rate reference; original serializer and RNG placement are inherited"
+    }
+  },
+  "scope": "existing official val references only",
+  "user_instruction": "do not rerun existing P1/P2/P4; retain historical P1 byte cost"
+}

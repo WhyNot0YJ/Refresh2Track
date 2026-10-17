@@ -1,0 +1,106 @@
+CoopTrack Stage 1 Docker migration
+
+Completed for the user's Docker-only constraint. Runtime code executes inside the new
+CoopTrack image. Docker import/GPU/data gates passed and bounded cleanup removed the
+temporary host cooptrack-smoke prefix. See reports/STAGE1_FINAL.md and custom_ops.md.
+
+Image: cooptrack-stage1:29f1c52-official
+Container: cooptrack-stage1-smoke
+Official base: ubuntu:24.04@sha256:008173c23f95b170204355c12626cb5a965d779a7e1283b09e9cffbb1bf33ca3
+Preserved prefix inside image: /home/yujie/miniconda/envs/cooptrack-smoke
+
+Why direct transfer is appropriate
+- 639 relevant native ELF files were checked with readelf. Maximum required GLIBC
+  version is 2.34; the locally compiled mmdet3d operators require 2.32. Ubuntu 20.04
+  cannot run these operators unchanged. Ubuntu 24.04 matches the source host ABI.
+- No external or broken prefix symlink was found. The prefix is independently complete.
+- The mmdet3d editable link points to /mnt/d/CoopTrack_Audit/code/mmdetection3d;
+  bind the audit workspace to that identical absolute path.
+- Existing official torch/cu111, mmcv-full1.4.0, mmdet2.14.0, mmseg0.14.1 and
+  mmdet3d0.17.1 remain intact. This avoids another torch download or operator build.
+- Do not set LD_LIBRARY_PATH to prefix/lib: that could change torch's CUDA runtime
+  selection. Docker's NVIDIA runtime supplies the driver libraries and device access.
+
+Historical migration build from WSL (already completed; host prefix is now deleted)
+  bash /mnt/d/CoopTrack_Audit/docker/build-image.sh
+
+The script streams an uncompressed tar containing only the cooptrack-smoke prefix,
+Dockerfile and verified ninja1.11.1.3 wheel to Docker build. It creates no intermediate
+7 GB tar file. The image installs ninja offline inside Docker. No host pip install occurs.
+Docker may retain build context/cache internally; this is separate from host ML installation.
+
+Required binds
+- /mnt/d/CoopTrack_Audit -> the identical container path, read/write for output artifacts.
+- /mnt/c/Users/yujie/Desktop/CoopTrack/V2X-Seq-SPD-Example -> the identical container
+  path, read-only. The prepared audit data view points to this original directory.
+- Do not bind the host conda prefix, /home/yujie/miniconda, EMIFF, or another project's
+  environment into the new container. The prefix must come from its image layer.
+
+GPU and import gate (reuse the verified persistent container)
+  docker exec --workdir /mnt/d/CoopTrack_Audit/code/CoopTrack cooptrack-stage1-smoke \
+    python /mnt/d/CoopTrack_Audit/docker/container_gate.py
+
+Equivalent wrapper:
+  bash /mnt/d/CoopTrack_Audit/docker/run.sh
+
+run.sh defaults to container_gate.py. If the named container exists, it verifies its
+image ID matches the selected tag, starts it only if stopped, then uses docker exec.
+If absent, it creates a transient container with --gpus all, 2 GB shared memory and
+both required binds. A name belonging to another image is preserved and rejected.
+With explicit command arguments it runs that command:
+  bash /mnt/d/CoopTrack_Audit/docker/run.sh python /mnt/d/CoopTrack_Audit/scripts/main_eval.py --help
+
+The parent agent already created the persistent cooptrack-stage1-smoke container.
+The updated wrapper safely reuses it; no additional container was started while
+preparing or statically checking this wrapper.
+No display/interactive window is configured or required.
+
+Container evidence
+- artifacts/core/docker_provenance/docker_environment_gate.json: original import/GPU/custom-op tests, same checks.
+- artifacts/core/docker_provenance/docker_40xx_inverse_verification.json: existing audited inverse workaround test.
+- artifacts/core/docker_provenance/docker_migration_gate.json: DOCKER_ENV_GATE_PASS and host_prefix_bound=false.
+- artifacts/core/docker_provenance/environment_gate.json and artifacts/core/docker_provenance/40xx_inverse_verification.json remain as host
+  provenance; the Docker adapter redirects only their evidence destinations.
+- The documented raw torch cusolver inverse failure on RTX40xx may persist; the
+  patched model helper must pass. A raw inverse failure alone is not this gate's blocker.
+
+Verified system dependencies
+OpenCV requires libGL and GLib; Open3D requires libgomp, libGL and libudev.so.1.
+Actual OpenCV and Open3D imports passed inside the completed migration image; no
+libudev failure occurred and Dockerfile.runtime-fix was not needed or executed.
+The future standalone Dockerfile.rebuild explicitly includes libudev1 as well.
+Do not apply an unnecessary fix layer to the already verified image.
+
+Cleanup boundary
+The parent agent delegated cleanup separately. Remove only the newly created host
+/home/yujie/miniconda/envs/cooptrack-smoke after container ownership, GPU operators,
+patched inverse and data-path checks pass. Keep audit source, compiled mmdet3d .so,
+data views, verified wheels/checkpoints, patches and logs. The mmdet3d source/compiled
+operators live outside the host prefix and are required by the image's editable link.
+Shared base conda, EMIFF and preexisting images/containers are outside cleanup scope.
+Docker verification recorded no host-prefix bind and cleanup then removed that prefix.
+Further converters, weight downloads and smoke inference run
+through Docker, including the prepared checkpoint downloader when ENV_GATE_PASS holds.
+
+Independent rebuild after host cleanup
+See docker/REBUILD.md, Dockerfile.rebuild and rebuild-image.sh. The recipe uses captured
+official Conda URL/SHA256 locks, pip artifact URL/SHA256 locks, retained official wheels,
+NVIDIA header archives and fixed Git commits. It installs and compiles inside Docker,
+with no host prefix required. It was only statically checked; no second build ran.
+Use a separate rebuilt image/container tag so the verified migration image is retained.
+
+Read-only investigation records
+- docker/glibc_requirements.json
+- docker/prefix_external_links.json
+- logs/docker_build_initial_missing_ninja.log: initial context lacked the ninja wheel.
+- logs/docker_build.log: corrected streamed build.
+- artifacts/core/docker_provenance/docker_image_identity.txt: final image identity once build completes.
+
+Primary documentation consulted
+https://docs.docker.com/build/concepts/context/
+  Docker supports a tar filesystem context on standard input with --file relative to it.
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/docker-specialized.html
+  --gpus and NVIDIA_DRIVER_CAPABILITIES control GPU/driver access inside Docker.
+
+Preparation itself did not mutate existing containers or images. The parent explicitly
+authorized the corrected streamed build after the first build had already ended.

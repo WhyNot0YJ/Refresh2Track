@@ -1,0 +1,31 @@
+{
+  "api_url": "https://api.github.com/repos/mamba-org/micromamba-releases/releases/latest",
+  "tag_name": "2.9.0-0",
+  "html_url": "https://github.com/mamba-org/micromamba-releases/releases/tag/2.9.0-0",
+  "assets": [
+    {
+      "name": "micromamba-linux-64",
+      "browser_download_url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64",
+      "size": 18292808,
+      "digest": "sha256:366cd9cd8be14df1ab8ed50352a82111082a36686b2d389fdb79a92c3fafb3e3"
+    },
+    {
+      "name": "micromamba-linux-64.sha256",
+      "browser_download_url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64.sha256",
+      "size": 64,
+      "digest": "sha256:05efd829657681dec13d8ae495e70fef47d2f17c4f2a5f4cc3bbacd2345a8a0e"
+    },
+    {
+      "name": "micromamba-linux-64.tar.bz2",
+      "browser_download_url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64.tar.bz2",
+      "size": 6988090,
+      "digest": "sha256:8761c382127e6363bd9e0a2451aa3ef90d071a79133f736e2f759a3bf13040dd"
+    },
+    {
+      "name": "micromamba-linux-64.tar.bz2.sha256",
+      "browser_download_url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64.tar.bz2.sha256",
+      "size": 64,
+      "digest": "sha256:05efd829657681dec13d8ae495e70fef47d2f17c4f2a5f4cc3bbacd2345a8a0e"
+    }
+  ]
+}

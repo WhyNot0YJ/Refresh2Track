@@ -1,0 +1,60 @@
+ARG BASE_IMAGE=ubuntu:24.04@sha256:008173c23f95b170204355c12626cb5a965d779a7e1283b09e9cffbb1bf33ca3
+FROM ${BASE_IMAGE} AS common
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        ca-certificates curl git gcc-11 g++-11 ninja-build \
+        libgl1 libglib2.0-0t64 libxext6 libxrender1 libgomp1 libsm6 libudev1 \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV PATH=/home/yujie/miniconda/envs/cooptrack-smoke/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
+    CONDA_PREFIX=/home/yujie/miniconda/envs/cooptrack-smoke \
+    CUDA_HOME=/home/yujie/miniconda/envs/cooptrack-smoke \
+    CC=/usr/bin/gcc-11 CXX=/usr/bin/g++-11 \
+    TORCH_CUDA_ARCH_LIST=8.6+PTX MAX_JOBS=2 OMP_NUM_THREADS=2 \
+    PYTHONNOUSERSITE=1 PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 \
+    NVIDIA_VISIBLE_DEVICES=all NVIDIA_DRIVER_CAPABILITIES=compute,utility
+# Do not prepend prefix/lib to LD_LIBRARY_PATH: torch retains its cu111 runtime.
+
+FROM common AS builder
+COPY locks/ /opt/rebuild/locks/
+COPY rebuild-helper.py /opt/rebuild/rebuild-helper.py
+COPY wheels/ /opt/rebuild/wheels/
+COPY cuda_packages/ /opt/rebuild/cuda_packages/
+
+# Official mamba-org release, fixed URL and GitHub-published SHA256; no host conda.
+RUN curl --fail --location --retry 8 --retry-all-errors --retry-delay 5 \
+        --connect-timeout 30 --max-time 900 \
+        https://github.com/mamba-org/micromamba-releases/releases/download/2.9.0-0/micromamba-linux-64 \
+        --output /usr/local/bin/micromamba \
+    && echo '366cd9cd8be14df1ab8ed50352a82111082a36686b2d389fdb79a92c3fafb3e3  /usr/local/bin/micromamba' | sha256sum --check - \
+    && chmod 0755 /usr/local/bin/micromamba \
+    && MAMBA_ROOT_PREFIX=/opt/mamba micromamba create --yes \
+        --prefix /home/yujie/miniconda/envs/cooptrack-smoke \
+        --file /opt/rebuild/locks/conda-explicit-linux-64.lock \
+    && rm -rf /opt/mamba/pkgs
+
+# Every artifact is fixed by URL+SHA256; bootstrap legacy sdist build tools first.
+RUN python -m pip install --no-index --no-cache-dir --no-deps --require-hashes \
+        --timeout 180 --retries 8 --requirement /opt/rebuild/locks/pip-bootstrap.lock \
+    && python -m pip install --no-index --no-cache-dir --no-deps --require-hashes \
+        --no-build-isolation --timeout 180 --retries 8 \
+        --requirement /opt/rebuild/locks/pip-artifacts-linux-64.lock
+RUN python /opt/rebuild/rebuild-helper.py headers \
+    && python /opt/rebuild/rebuild-helper.py sources
+
+# Docker build normally has no GPU: FORCE_CUDA avoids silently compiling CPU-only ops.
+RUN FORCE_CUDA=1 python -m pip install --no-index --no-cache-dir --no-build-isolation \
+        --no-deps --editable /opt/cooptrack/mmdetection3d \
+    && python /opt/rebuild/rebuild-helper.py versions
+
+FROM common AS runtime
+LABEL org.opencontainers.image.source="https://github.com/zhongjiaru/CoopTrack" \
+      org.opencontainers.image.revision="29f1c52c8a0ec0e2a753f0695eb4e288bc5ed399" \
+      org.opencontainers.image.description="CoopTrack official stack rebuilt entirely inside Docker from retained locks"
+COPY --from=builder /home/yujie/miniconda/envs/cooptrack-smoke/ /home/yujie/miniconda/envs/cooptrack-smoke/
+COPY --from=builder /opt/cooptrack/ /opt/cooptrack/
+COPY --from=builder /opt/rebuild/locks/ /opt/rebuild/locks/
+COPY --from=builder /opt/rebuild/rebuild-helper.py /opt/rebuild/rebuild-helper.py
+RUN python /opt/rebuild/rebuild-helper.py versions
+WORKDIR /mnt/d/CoopTrack_Audit/code/CoopTrack
+CMD ["/bin/bash"]
